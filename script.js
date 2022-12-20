@@ -84,6 +84,64 @@ while (divisor <= num){
     divisor++
 }*/
 
+/*Напишите условие if для проверки, что переменная
+age находится в диапазоне между 14 и 90 включительно.
+let age = 21;
+if (age >= 14 && age <= 90){
+    console.log('ok');
+}*/
+
+/*Напишите условие if для проверки, что
+значение переменной age НЕ находится в диапазоне 14 и 90 включительно.
+let age = 11;
+if (age <= 14 || age >= 90){
+    console.log('Не входит в диапазон')
+}
+
+Напишите два варианта: первый с использованием оператора НЕ !, второй – без этого оператора.*/
+/*let age = 220;
+if (!(age >= 14 && age <= 90)){
+    console.log('не входит в диапазон');
+}*/
+
+/*Напишите код, который будет спрашивать логин с помощью prompt.
+    Если посетитель вводит «Админ», то prompt запрашивает пароль,
+    если ничего не введено или нажата клавиша Esc – показать «Отменено»,
+в противном случае отобразить «Я вас не знаю».
+let login = prompt('Enter ur login');
+if (login == 'admin' || login == 'Admin'){
+    let password = prompt('Enter ur password');
+    if (password == "it's me") {
+        alert('Welcome');
+    } else if (password === null){
+        alert('Canceled');
+    } else {
+        alert('incorrect password');
+    }
+} else if (login === null) {
+    alert('Canceled')
+} else {
+    alert('I dont know who u are')
+}*/
+
+/*переписать for в while
+for (let i = 0; i < 3; i++) {
+    alert( `number ${i}!` );
+}
+
+let i = 0;
+while (i < 3) {
+
+    alert( `number ${i}!` );
+    i++;
+}*/
+
+
+
+
+
+
+
 
 
 
